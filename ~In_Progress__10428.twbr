@@ -1,0 +1,1794 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <CollapsiblePane />
+    <DashboardMttwImageObject />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Multiple Connections)' inline='true' name='federated.0adrmhu1rguqsx120d1ej1ttq6qh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='KICPA_중점심사' name='excel-direct.1f6wigf13pdeqk17ub7011jpmbwl'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/jaecjung/Documents/GitHub/Key_Insepction_by_FSS-Financial-Supervisory-Service-/KICPA_중점심사.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='FSS_중점심사' name='excel-direct.0g5br840qdkbao1fq65rn1tgnb79'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/jaecjung/Documents/GitHub/Key_Insepction_by_FSS-Financial-Supervisory-Service-/FSS_중점심사.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1f6wigf13pdeqk17ub7011jpmbwl' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AE10001:no:A1:AE10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='업체코드' ordinal='0' />
+            <column datatype='string' name='종목코드' ordinal='1' />
+            <column datatype='string' name='종목명' ordinal='2' />
+            <column datatype='string' name='업체명' ordinal='3' />
+            <column datatype='string' name='상장법인' ordinal='4' />
+            <column datatype='string' name='대분류' ordinal='5' />
+            <column datatype='string' name='중분류' ordinal='6' />
+            <column datatype='string' name='소분류' ordinal='7' />
+            <column datatype='string' name='채무증권발행(최근 3년)' ordinal='8' />
+            <column datatype='string' name='한전여부' ordinal='9' />
+            <column datatype='string' name='연도' ordinal='10' />
+            <column datatype='integer' name='(개발비상각누계액)' ordinal='11' />
+            <column datatype='integer' name='(개발비손상차손누계액)' ordinal='12' />
+            <column datatype='integer' name='(개발비정부보조금)' ordinal='13' />
+            <column datatype='integer' name='(기타무형자산상각누계액)' ordinal='14' />
+            <column datatype='integer' name='(기타무형자산손상차손누계액)' ordinal='15' />
+            <column datatype='integer' name='(기타무형자산정부보조금)' ordinal='16' />
+            <column datatype='integer' name='(영업권상각누계액)' ordinal='17' />
+            <column datatype='integer' name='(영업권손상차손누계액)' ordinal='18' />
+            <column datatype='integer' name='(영업권정부보조금)' ordinal='19' />
+            <column datatype='string' name='감사법인' ordinal='20' />
+            <column datatype='integer' name='개발비' ordinal='21' />
+            <column datatype='integer' name='공사손실충당부채' ordinal='22' />
+            <column datatype='integer' name='기타무형자산' ordinal='23' />
+            <column datatype='integer' name='보증손실충당부채' ordinal='24' />
+            <column datatype='integer' name='영업권' ordinal='25' />
+            <column datatype='integer' name='유동부채(계)' ordinal='26' />
+            <column datatype='integer' name='유동자산(계)' ordinal='27' />
+            <column datatype='integer' name='총수익' ordinal='28' />
+            <column datatype='integer' name='판매보증충당부채' ordinal='29' />
+            <column datatype='integer' name='하자보수충당부채' ordinal='30' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1f6wigf13pdeqk17ub7011jpmbwl' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AE10001:no:A1:AE10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='업체코드' ordinal='0' />
+            <column datatype='string' name='종목코드' ordinal='1' />
+            <column datatype='string' name='종목명' ordinal='2' />
+            <column datatype='string' name='업체명' ordinal='3' />
+            <column datatype='string' name='상장법인' ordinal='4' />
+            <column datatype='string' name='대분류' ordinal='5' />
+            <column datatype='string' name='중분류' ordinal='6' />
+            <column datatype='string' name='소분류' ordinal='7' />
+            <column datatype='string' name='채무증권발행(최근 3년)' ordinal='8' />
+            <column datatype='string' name='한전여부' ordinal='9' />
+            <column datatype='string' name='연도' ordinal='10' />
+            <column datatype='integer' name='(개발비상각누계액)' ordinal='11' />
+            <column datatype='integer' name='(개발비손상차손누계액)' ordinal='12' />
+            <column datatype='integer' name='(개발비정부보조금)' ordinal='13' />
+            <column datatype='integer' name='(기타무형자산상각누계액)' ordinal='14' />
+            <column datatype='integer' name='(기타무형자산손상차손누계액)' ordinal='15' />
+            <column datatype='integer' name='(기타무형자산정부보조금)' ordinal='16' />
+            <column datatype='integer' name='(영업권상각누계액)' ordinal='17' />
+            <column datatype='integer' name='(영업권손상차손누계액)' ordinal='18' />
+            <column datatype='integer' name='(영업권정부보조금)' ordinal='19' />
+            <column datatype='string' name='감사법인' ordinal='20' />
+            <column datatype='integer' name='개발비' ordinal='21' />
+            <column datatype='integer' name='공사손실충당부채' ordinal='22' />
+            <column datatype='integer' name='기타무형자산' ordinal='23' />
+            <column datatype='integer' name='보증손실충당부채' ordinal='24' />
+            <column datatype='integer' name='영업권' ordinal='25' />
+            <column datatype='integer' name='유동부채(계)' ordinal='26' />
+            <column datatype='integer' name='유동자산(계)' ordinal='27' />
+            <column datatype='integer' name='총수익' ordinal='28' />
+            <column datatype='integer' name='판매보증충당부채' ordinal='29' />
+            <column datatype='integer' name='하자보수충당부채' ordinal='30' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>업체코드</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[업체코드]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>업체코드</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>종목코드</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[종목코드]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>종목코드</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>종목명</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[종목명]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>종목명</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>업체명</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[업체명]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>업체명</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>상장법인</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[상장법인]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>상장법인</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>대분류</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[대분류]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>대분류</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>중분류</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[중분류]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>중분류</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>소분류</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[소분류]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>소분류</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>채무증권발행(최근 3년)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[채무증권발행(최근 3년)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>채무증권발행(최근 3년)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>한전여부</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[한전여부]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>한전여부</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연도</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[연도]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>연도</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(개발비상각누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(개발비상각누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(개발비상각누계액)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(개발비손상차손누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(개발비손상차손누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(개발비손상차손누계액)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(개발비정부보조금)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(개발비정부보조금)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(개발비정부보조금)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(기타무형자산상각누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(기타무형자산상각누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(기타무형자산상각누계액)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(기타무형자산손상차손누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(기타무형자산손상차손누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(기타무형자산손상차손누계액)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(기타무형자산정부보조금)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(기타무형자산정부보조금)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(기타무형자산정부보조금)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(영업권상각누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(영업권상각누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(영업권상각누계액)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(영업권손상차손누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(영업권손상차손누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(영업권손상차손누계액)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(영업권정부보조금)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(영업권정부보조금)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(영업권정부보조금)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>감사법인</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[감사법인]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>감사법인</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>개발비</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[개발비]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>개발비</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>공사손실충당부채</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[공사손실충당부채]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>공사손실충당부채</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>기타무형자산</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[기타무형자산]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>기타무형자산</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>보증손실충당부채</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[보증손실충당부채]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>보증손실충당부채</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>영업권</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[영업권]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>영업권</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>유동부채(계)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[유동부채(계)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>유동부채(계)</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>유동자산(계)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[유동자산(계)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>유동자산(계)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>총수익</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[총수익]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>총수익</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>판매보증충당부채</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[판매보증충당부채]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>판매보증충당부채</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>하자보수충당부채</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[하자보수충당부채]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>하자보수충당부채</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AE10001:no:A1:AE10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[usr:Calculation_733805316374986754:qk:1]&quot;' value='충당부채 변동율' />
+          <alias key='&quot;[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[usr:Calculation_733805316375736323:qk]&quot;' value='매출액 대비 충당부채 비율' />
+        </aliases>
+      </column>
+      <column caption='충당부채(계)' datatype='integer' name='[Calculation_733805316370821121]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[공사손실충당부채]+[보증손실충당부채]+[판매보증충당부채]+[하자보수충당부채]' />
+      </column>
+      <column caption='충당부채 변동율' datatype='real' name='[Calculation_733805316374986754]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(SUM([Calculation_733805316370821121]) - LOOKUP(sum([Calculation_733805316370821121]), -1)) / LOOKUP(sum([Calculation_733805316370821121]), -1)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='매출 대비 충당부채 비율' datatype='real' name='[Calculation_733805316375736323]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_733805316370821121])/SUM([총수익])' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='KICPA' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_A7487159D87147B7BDCC776532B864CC]' role='measure' type='quantitative' />
+      <column datatype='string' name='[대분류]' role='dimension' type='nominal' />
+      <column datatype='string' name='[업체명]' role='dimension' type='nominal' />
+      <column datatype='string' name='[연도]' role='dimension' type='nominal' />
+      <column datatype='string' name='[한전여부]' role='dimension' type='nominal' />
+      <column-instance column='[한전여부]' derivation='None' name='[none:한전여부:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_733805316374986754]' derivation='User' name='[usr:Calculation_733805316374986754:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' />
+      </column-instance>
+      <column-instance column='[Calculation_733805316375736323]' derivation='User' name='[usr:Calculation_733805316375736323:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (대분류,업체명)' hidden='true' name='[Action (대분류,업체명)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[대분류]' />
+          <groupfilter function='level-members' level='[업체명]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (연도,한전여부)' hidden='true' name='[Action (연도,한전여부)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[연도]' />
+          <groupfilter function='level-members' level='[한전여부]' />
+        </groupfilter>
+      </group>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='1. 충당부채' role='measures'>
+        <folder-item name='[공사손실충당부채]' type='field' />
+        <folder-item name='[보증손실충당부채]' type='field' />
+        <folder-item name='[판매보증충당부채]' type='field' />
+        <folder-item name='[하자보수충당부채]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='2.무형자산' role='measures'>
+        <folder-item name='[(개발비상각누계액)]' type='field' />
+        <folder-item name='[(개발비손상차손누계액)]' type='field' />
+        <folder-item name='[(개발비정부보조금)]' type='field' />
+        <folder-item name='[(기타무형자산상각누계액)]' type='field' />
+        <folder-item name='[(기타무형자산손상차손누계액)]' type='field' />
+        <folder-item name='[(기타무형자산정부보조금)]' type='field' />
+        <folder-item name='[(영업권상각누계액)]' type='field' />
+        <folder-item name='[(영업권손상차손누계액)]' type='field' />
+        <folder-item name='[(영업권정부보조금)]' type='field' />
+        <folder-item name='[개발비]' type='field' />
+        <folder-item name='[기타무형자산]' type='field' />
+        <folder-item name='[영업권]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='4. 유동성비율' role='measures'>
+        <folder-item name='[유동부채(계)]' type='field' />
+        <folder-item name='[유동자산(계)]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.true...folders-common>
+        <folder name='1. 충당부채'>
+          <folder-item name='[공사손실충당부채]' type='field' />
+          <folder-item name='[보증손실충당부채]' type='field' />
+          <folder-item name='[판매보증충당부채]' type='field' />
+          <folder-item name='[하자보수충당부채]' type='field' />
+        </folder>
+        <folder name='2.무형자산'>
+          <folder-item name='[(개발비상각누계액)]' type='field' />
+          <folder-item name='[(개발비손상차손누계액)]' type='field' />
+          <folder-item name='[(개발비정부보조금)]' type='field' />
+          <folder-item name='[(기타무형자산상각누계액)]' type='field' />
+          <folder-item name='[(기타무형자산손상차손누계액)]' type='field' />
+          <folder-item name='[(기타무형자산정부보조금)]' type='field' />
+          <folder-item name='[(영업권상각누계액)]' type='field' />
+          <folder-item name='[(영업권손상차손누계액)]' type='field' />
+          <folder-item name='[(영업권정부보조금)]' type='field' />
+          <folder-item name='[개발비]' type='field' />
+          <folder-item name='[기타무형자산]' type='field' />
+          <folder-item name='[영업권]' type='field' />
+        </folder>
+        <folder name='4. 유동성비율'>
+          <folder-item name='[유동부채(계)]' type='field' />
+          <folder-item name='[유동자산(계)]' type='field' />
+        </folder>
+      </_.fcp.SchemaViewerObjectModel.true...folders-common>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:한전여부:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;O&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;X&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;South Korea&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='KICPA' id='Sheet1_A7487159D87147B7BDCC776532B864CC'>
+            <properties context=''>
+              <relation connection='excel-direct.1f6wigf13pdeqk17ub7011jpmbwl' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:AE10001:no:A1:AE10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='업체코드' ordinal='0' />
+                  <column datatype='string' name='종목코드' ordinal='1' />
+                  <column datatype='string' name='종목명' ordinal='2' />
+                  <column datatype='string' name='업체명' ordinal='3' />
+                  <column datatype='string' name='상장법인' ordinal='4' />
+                  <column datatype='string' name='대분류' ordinal='5' />
+                  <column datatype='string' name='중분류' ordinal='6' />
+                  <column datatype='string' name='소분류' ordinal='7' />
+                  <column datatype='string' name='채무증권발행(최근 3년)' ordinal='8' />
+                  <column datatype='string' name='한전여부' ordinal='9' />
+                  <column datatype='string' name='연도' ordinal='10' />
+                  <column datatype='integer' name='(개발비상각누계액)' ordinal='11' />
+                  <column datatype='integer' name='(개발비손상차손누계액)' ordinal='12' />
+                  <column datatype='integer' name='(개발비정부보조금)' ordinal='13' />
+                  <column datatype='integer' name='(기타무형자산상각누계액)' ordinal='14' />
+                  <column datatype='integer' name='(기타무형자산손상차손누계액)' ordinal='15' />
+                  <column datatype='integer' name='(기타무형자산정부보조금)' ordinal='16' />
+                  <column datatype='integer' name='(영업권상각누계액)' ordinal='17' />
+                  <column datatype='integer' name='(영업권손상차손누계액)' ordinal='18' />
+                  <column datatype='integer' name='(영업권정부보조금)' ordinal='19' />
+                  <column datatype='string' name='감사법인' ordinal='20' />
+                  <column datatype='integer' name='개발비' ordinal='21' />
+                  <column datatype='integer' name='공사손실충당부채' ordinal='22' />
+                  <column datatype='integer' name='기타무형자산' ordinal='23' />
+                  <column datatype='integer' name='보증손실충당부채' ordinal='24' />
+                  <column datatype='integer' name='영업권' ordinal='25' />
+                  <column datatype='integer' name='유동부채(계)' ordinal='26' />
+                  <column datatype='integer' name='유동자산(계)' ordinal='27' />
+                  <column datatype='integer' name='총수익' ordinal='28' />
+                  <column datatype='integer' name='판매보증충당부채' ordinal='29' />
+                  <column datatype='integer' name='하자보수충당부채' ordinal='30' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_F466939F7ECF4FA281DAE3FDF7B4D55E]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='매출액 대비 충당부채 비율' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='한전여부' />
+        <param name='target' value='매출액 대비 충당부채 비율' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action3_92F44622D64F4487922EEA605D114753]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 2' type='sheet' worksheet='산업분류' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 2' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='매출액 대비 충당부채 비율'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='나눔바른고딕' fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Multiple Connections)' name='federated.0adrmhu1rguqsx120d1ej1ttq6qh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0adrmhu1rguqsx120d1ej1ttq6qh'>
+            <column caption='충당부채(계)' datatype='integer' name='[Calculation_733805316370821121]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[공사손실충당부채]+[보증손실충당부채]+[판매보증충당부채]+[하자보수충당부채]' />
+            </column>
+            <column caption='매출 대비 충당부채 비율' datatype='real' name='[Calculation_733805316375736323]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_733805316370821121])/SUM([총수익])' />
+            </column>
+            <column-instance column='[연도]' derivation='None' name='[none:연도:nk]' pivot='key' type='nominal' />
+            <column-instance column='[한전여부]' derivation='None' name='[none:한전여부:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_733805316370821121]' derivation='Sum' name='[sum:Calculation_733805316370821121:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[총수익]' derivation='Sum' name='[sum:총수익:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_733805316375736323]' derivation='User' name='[usr:Calculation_733805316375736323:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[공사손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[대분류]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[보증손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[업체명]' role='dimension' type='nominal' />
+            <column datatype='string' name='[연도]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[총수익]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[판매보증충당부채]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[하자보수충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[한전여부]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[Action (대분류,업체명)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_92F44622D64F4487922EEA605D114753]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[대분류]' />
+              <groupfilter function='level-members' level='[업체명]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:한전여부:nk]'>
+            <groupfilter function='level-members' level='[none:한전여부:nk]' />
+          </filter>
+          <manual-sort column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:한전여부:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;O&quot;</bucket>
+              <bucket>&quot;X&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:한전여부:nk]</column>
+            <column>[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[Action (대분류,업체명)]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' field-type='quantitative' max='1200672105794' min='-124794033101' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' field-type='quantitative' max='119478609032174' min='-13252319637915' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' value='n#,##0,,M' />
+            <format attr='text-format' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' value='n#,##0,,M' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:한전여부:nk]' />
+              <lod column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:연도:nk]' />
+              <lod column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[usr:Calculation_733805316375736323:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]</rows>
+        <cols>[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]</cols>
+      </table>
+      <simple-id uuid='{C119BBB7-0D63-4213-B60F-F211B382450B}' />
+    </worksheet>
+    <worksheet name='산업분류'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='나눔바른고딕' fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Multiple Connections)' name='federated.0adrmhu1rguqsx120d1ej1ttq6qh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0adrmhu1rguqsx120d1ej1ttq6qh'>
+            <column caption='충당부채(계)' datatype='integer' name='[Calculation_733805316370821121]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[공사손실충당부채]+[보증손실충당부채]+[판매보증충당부채]+[하자보수충당부채]' />
+            </column>
+            <column-instance column='[대분류]' derivation='None' name='[none:대분류:nk]' pivot='key' type='nominal' />
+            <column-instance column='[업체명]' derivation='None' name='[none:업체명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[한전여부]' derivation='None' name='[none:한전여부:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_733805316370821121]' derivation='Sum' name='[sum:Calculation_733805316370821121:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[총수익]' derivation='Sum' name='[sum:총수익:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[공사손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[대분류]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[보증손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[업체명]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[총수익]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[판매보증충당부채]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[하자보수충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[한전여부]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:한전여부:nk]'>
+            <groupfilter function='member' level='[none:한전여부:nk]' member='&quot;O&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:업체명:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:한전여부:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' field-type='quantitative' fold='true' major-origin='0' major-show='false' major-spacing='1.0' max='47619121739599' min='-14523864897597' range-type='fixed' scope='cols' synchronized='true' type='space' />
+            <format attr='title' class='0' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' scope='cols' value='' />
+            <format attr='display' class='1' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' scope='cols' value='true' />
+            <encoding attr='space' class='1' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' field-type='quantitative' fold='true' major-origin='0' major-show='false' major-spacing='1000000000.0' max='2184326363' min='-1975575' range-type='fixed' scope='cols' synchronized='true' type='space' />
+            <format attr='title' class='0' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' scope='cols' value='' />
+            <format attr='height' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' value='40' />
+            <format attr='height' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' value='40' />
+            <format attr='display' class='0' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' scope='cols' value='true' />
+            <format attr='display' class='0' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' scope='cols' value='true' />
+            <format attr='display' class='1' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' scope='cols' value='true' />
+            <encoding attr='space' class='0' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' field-type='quantitative' max='47619121739599' min='-14523864897597' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' field-type='quantitative' max='2184326363' min='-1975575' range-type='fixed' scope='cols' type='space' />
+            <format attr='border-color' value='#b0b0b0' />
+            <format attr='border-width' value='1' />
+            <format attr='hnaxis' value='false' />
+            <format attr='hnlabel' value='horizontal' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:업체명:nk]' value='20' />
+            <format attr='vertical-align' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' value='auto' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:업체명:nk]' value='208' />
+            <format attr='width' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:대분류:nk]' value='228' />
+            <format attr='height-header' value='32' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-family' value='나눔바른고딕' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' value='n#,##0,,,B' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' num-steps='4' palette='green_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' num-steps='4' palette='orange_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='vertical-align' id='refline0' value='top' />
+            <format attr='text-align' id='refline0' value='auto' />
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' value='충당부채(계)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='283' />
+                <format attr='maxwidth' value='283' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='113' />
+                <format attr='maxwidth' value='113' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='113' />
+                <format attr='maxwidth' value='113' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='113' />
+                <format attr='maxwidth' value='113' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='332' />
+                <format attr='maxwidth' value='332' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='113' />
+                <format attr='maxwidth' value='113' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='332' />
+                <format attr='maxwidth' value='332' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='113' />
+                <format attr='maxwidth' value='113' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='153' />
+                <format attr='maxwidth' value='153' />
+                <format attr='minheight' value='660' />
+                <format attr='maxheight' value='660' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:대분류:nk] / [federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:업체명:nk])</rows>
+        <cols>([federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk] + ([federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk] + ([federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk] + [federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk])))</cols>
+      </table>
+      <simple-id uuid='{366CA08D-7041-4095-B06F-99EC2DE43EC5}' />
+    </worksheet>
+    <worksheet name='시계열'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='16'>2025년 재무제표 중점 점검분야 사전예고</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Multiple Connections)' name='federated.0adrmhu1rguqsx120d1ej1ttq6qh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0adrmhu1rguqsx120d1ej1ttq6qh'>
+            <column caption='충당부채(계)' datatype='integer' name='[Calculation_733805316370821121]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[공사손실충당부채]+[보증손실충당부채]+[판매보증충당부채]+[하자보수충당부채]' />
+            </column>
+            <column-instance column='[대분류]' derivation='None' name='[none:대분류:nk]' pivot='key' type='nominal' />
+            <column-instance column='[연도]' derivation='None' name='[none:연도:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_733805316370821121]' derivation='Sum' name='[sum:Calculation_733805316370821121:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[공사손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[대분류]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[보증손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[연도]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[판매보증충당부채]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[하자보수충당부채]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:대분류:nk]'>
+            <groupfilter function='member' level='[none:대분류:nk]' member='&quot;제조업&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:대분류:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]</rows>
+        <cols>[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:연도:nk]</cols>
+      </table>
+      <simple-id uuid='{A5334394-ABA9-411C-A83B-2631B1CBD345}' />
+    </worksheet>
+    <worksheet name='연도별 충당부채'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Multiple Connections)' name='federated.0adrmhu1rguqsx120d1ej1ttq6qh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0adrmhu1rguqsx120d1ej1ttq6qh'>
+            <column caption='충당부채(계)' datatype='integer' name='[Calculation_733805316370821121]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[공사손실충당부채]+[보증손실충당부채]+[판매보증충당부채]+[하자보수충당부채]' />
+            </column>
+            <column caption='충당부채 변동율' datatype='real' name='[Calculation_733805316374986754]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(SUM([Calculation_733805316370821121]) - LOOKUP(sum([Calculation_733805316370821121]), -1)) / LOOKUP(sum([Calculation_733805316370821121]), -1)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='매출 대비 충당부채 비율' datatype='real' name='[Calculation_733805316375736323]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_733805316370821121])/SUM([총수익])' />
+            </column>
+            <column-instance column='[연도]' derivation='None' name='[none:연도:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_733805316370821121]' derivation='Sum' name='[sum:Calculation_733805316370821121:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[총수익]' derivation='Sum' name='[sum:총수익:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_733805316374986754]' derivation='User' name='[usr:Calculation_733805316374986754:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+            <column-instance column='[Calculation_733805316375736323]' derivation='User' name='[usr:Calculation_733805316375736323:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[공사손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[보증손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[연도]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[총수익]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[판매보증충당부채]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[하자보수충당부채]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[usr:Calculation_733805316374986754:qk:1]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[usr:Calculation_733805316375736323:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[usr:Calculation_733805316374986754:qk:1]&quot;</bucket>
+              <bucket>&quot;[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[usr:Calculation_733805316375736323:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[:Measure Names]' value='265' />
+            <format attr='text-format' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[usr:Calculation_733805316375736323:qk]' value='p0%' />
+            <format attr='text-format' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:총수익:qk]' value='n#,##0,,M' />
+            <format attr='text-format' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[sum:Calculation_733805316370821121:qk]' value='n#,##0,,M' />
+            <format attr='text-format' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[usr:Calculation_733805316374986754:qk:1]' value='p0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[usr:Calculation_733805316375736323:qk]' value='p0.0000000000%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:연도:nk]</rows>
+        <cols>[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{C62FE372-878E-464F-A2AF-E5ED7B2EB97D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98146' id='26' param='horz' type-v2='layout-flow' w='99002' x='499' y='927'>
+            <zone h='98146' id='24' type-v2='layout-basic' w='89027' x='499' y='927'>
+              <zone h='15527' id='21' param='horz' type-v2='layout-flow' w='44705' x='499' y='927'>
+                <zone h='15527' id='19' type-v2='layout-basic' w='44705' x='499' y='927'>
+                  <zone h='15527' id='3' param='vert' type-v2='layout-flow' w='44705' x='499' y='927'>
+                    <zone forceUpdate='true' h='4171' id='5' type-v2='text' w='44705' x='499' y='927'>
+                      <formatted-text>
+                        <run bold='true' fontcolor='#ffffff' fontname='나눔바른고딕' fontsize='12'>금감원_1. 충당부채와 우발부채 </run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='solid' />
+                        <format attr='border-width' value='1' />
+                        <format attr='margin' value='4' />
+                        <format attr='background-color' value='#000000' />
+                      </zone-style>
+                    </zone>
+                    <zone h='3940' id='6' type-v2='text' w='44705' x='499' y='5098'>
+                      <formatted-text>
+                        <run fontcolor='#000000' fontname='나눔바른고딕' fontsize='11'>선정기준</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='3940' id='7' param='horz' type-v2='layout-flow' w='44705' x='499' y='9038'>
+                      <zone fixed-size='313' forceUpdate='true' h='3940' id='8' is-fixed='true' type-v2='text' w='20013' x='499' y='9038'>
+                        <formatted-text>
+                          <run fontalignment='1' fontcolor='#ffffff' fontname='나눔바른고딕' fontsize='11'>기업의 충당부채 변동성</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                          <format attr='background-color' value='#ffa006' />
+                        </zone-style>
+                      </zone>
+                      <zone forceUpdate='true' h='3940' id='9' type-v2='text' w='24692' x='20512' y='9038'>
+                        <formatted-text>
+                          <run fontalignment='1' fontcolor='#ffffff' fontname='나눔바른고딕' fontsize='11'>매출액 대비 충당부채 비율</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                          <format attr='background-color' value='#ffa006' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                    <zone h='3476' id='14' is-fixed='true' type-v2='layout-basic' w='44705' x='499' y='12978'>
+                      <zone h='3476' id='11' param='horz' type-v2='layout-flow' w='21872' x='499' y='12978'>
+                        <zone h='3476' id='12' type-v2='text' w='21872' x='499' y='12978'>
+                          <formatted-text>
+                            <run fontname='나눔바른고딕'>TBD1</run>
+                          </formatted-text>
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                          </zone-style>
+                        </zone>
+                      </zone>
+                      <zone h='3476' id='15' param='horz' type-v2='layout-flow' w='22833' x='22371' y='12978'>
+                        <zone h='3476' id='13' type-v2='text' w='22833' x='22371' y='12978'>
+                          <formatted-text>
+                            <run fontname='나눔바른고딕'>TBD2</run>
+                          </formatted-text>
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                          </zone-style>
+                        </zone>
+                      </zone>
+                    </zone>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='padding' value='0' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='82619' id='22' name='산업분류' w='44705' x='499' y='16454'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98146' id='23' name='매출액 대비 충당부채 비율' w='44322' x='45204' y='927'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98146' id='25' is-fixed='true' param='vert' type-v2='layout-flow' w='9975' x='89526' y='927'>
+              <zone h='9733' id='27' name='매출액 대비 충당부채 비율' pane-specification-id='0' param='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:한전여부:nk]' type-v2='color' w='9975' x='89526' y='927'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='2781' id='28' type-v2='dashboard-object' w='1496' x='87032' y='927'>
+          <button action=''>
+            <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{4D70DBED-24C0-4D03-B058-710DDB4F40FE}&quot; zone-id=&quot;28&quot; zone-ids=[27]</toggle-action>
+            <button-visual-state />
+            <button-visual-state />
+          </button>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98146' id='16' param='vert' type-v2='layout-flow' w='99002' x='499' y='927'>
+                <zone forceUpdate='true' h='4171' id='5' type-v2='text' w='40898' x='499' y='927'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ffffff' fontname='나눔바른고딕' fontsize='12'>금감원_1. 충당부채와 우발부채 </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#000000' />
+                  </zone-style>
+                </zone>
+                <zone h='3940' id='6' type-v2='text' w='40898' x='499' y='5098'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontname='나눔바른고딕' fontsize='11'>선정기준</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='313' forceUpdate='true' h='3940' id='8' type-v2='text' w='20013' x='499' y='9038'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontname='나눔바른고딕' fontsize='11'>기업의 충당부채 변동성</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffa006' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3940' id='9' type-v2='text' w='20885' x='20512' y='9038'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontname='나눔바른고딕' fontsize='11'>매출액 대비 충당부채 비율</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffa006' />
+                  </zone-style>
+                </zone>
+                <zone h='86095' id='12' type-v2='text' w='20012' x='499' y='12978'>
+                  <formatted-text>
+                    <run fontname='나눔바른고딕'>TBD1</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='86095' id='13' type-v2='text' w='20886' x='20511' y='12978'>
+                  <formatted-text>
+                    <run fontname='나눔바른고딕'>TBD2</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{58F9DD50-58D4-4AFC-A2DC-4A4EE03C4CD6}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Instruction'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='8343' id='3' type-v2='text' w='99002' x='499' y='927'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontname='나눔바른고딕' fontsize='16'>2024년 재무제표 중점 점검분야 사전예고</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='10313' id='5' type-v2='text' w='49501' x='499' y='9270'>
+            <formatted-text>
+              <run fontalignment='1' fontcolor='#000000' fontname='나눔바른고딕' fontsize='15'>2024년도 재무제표 중점심사 회계이슈_금감원</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+              <format attr='background-color' value='#faf4e7' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='10313' id='6' type-v2='text' w='49501' x='50000' y='9270'>
+            <formatted-text>
+              <run fontalignment='1' fontcolor='#000000' fontname='나눔바른고딕' fontsize='15'>2025년도 중점 점검분야 회계이슈_한공회</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+              <format attr='background-color' value='#f5eddc' />
+            </zone-style>
+          </zone>
+          <zone alt-text='금융감독원 홈페이지' h='58864' id='7' param='C:/Users/jaecjung/Pictures/중점심사_캡쳐/2025_FSS.png' type-v2='bitmap' url='https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=136565&amp;menuNo=200218' w='49501' x='499' y='19583'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone alt-text='KICPA 홈페이지' h='58864' id='8' param='C:/Users/jaecjung/Pictures/중점심사_캡쳐/2025_KICPA.png' type-v2='bitmap' url='https://www.kicpa.or.kr/portal/default/kicpa/gnb/kr_pc/menu08/menu05/menu06.page' w='49501' x='50000' y='19583'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='20626' id='9' type-v2='text' w='99002' x='499' y='78447'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#e15759' fontname='나눔고딕' fontsize='11'>&lt;분석결과 사용시 유의사항&gt;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontname='나눔고딕' fontsize='11'>- A&amp;A Transformation&amp;Analyitcs팀은 KIS value 의 Raw Data를 Massive Download하여 분석하였으며, 이에 따라 데이터의 완전성 및 정확성과 관련한 미비사항은 Raw Data 자체의 문제이므로 사용상의 유의를 요함.</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontname='나눔고딕' fontsize='11'>- 2024년 재무정보는 2024년 1분기 공시사항을 기준으로 하여 데이터가 제한적이며, 손익 등 Flow 관련 값 연환산하였음.</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontname='나눔고딕' fontsize='11'>- 일반적인 재무제표상의 계정들을 제외한 추가적인 공시요소들(특수관계자, IFRS 적용여부 등)의 경우 상기 Raw Data의 완전성 및 정확성에 대한 추가확인이 필요할 수 있음. </run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontname='나눔고딕' fontsize='11'>- 별도 재무제표를 기준으로 분석함</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='850' minheight='850' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98146' id='12' param='vert' type-v2='layout-flow' w='99002' x='499' y='927'>
+                <zone forceUpdate='true' h='8343' id='3' type-v2='text' w='99002' x='499' y='927'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='나눔바른고딕' fontsize='16'>2024년 재무제표 중점 점검분야 사전예고</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='10313' id='5' type-v2='text' w='49501' x='499' y='9270'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontname='나눔바른고딕' fontsize='15'>2024년도 재무제표 중점심사 회계이슈_금감원</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#faf4e7' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='10313' id='6' type-v2='text' w='49501' x='50000' y='9270'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontname='나눔바른고딕' fontsize='15'>2025년도 중점 점검분야 회계이슈_한공회</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5eddc' />
+                  </zone-style>
+                </zone>
+                <zone alt-text='금융감독원 홈페이지' fixed-size='280' h='58864' id='7' is-fixed='true' param='C:/Users/jaecjung/Pictures/중점심사_캡쳐/2025_FSS.png' type-v2='bitmap' url='https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=136565&amp;menuNo=200218' w='49501' x='499' y='19583'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone alt-text='KICPA 홈페이지' fixed-size='280' h='58864' id='8' is-fixed='true' param='C:/Users/jaecjung/Pictures/중점심사_캡쳐/2025_KICPA.png' type-v2='bitmap' url='https://www.kicpa.or.kr/portal/default/kicpa/gnb/kr_pc/menu08/menu05/menu06.page' w='49501' x='50000' y='19583'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='20626' id='9' type-v2='text' w='99002' x='499' y='78447'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#e15759' fontname='나눔고딕' fontsize='11'>&lt;분석결과 사용시 유의사항&gt;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontname='나눔고딕' fontsize='11'>- A&amp;A Transformation&amp;Analyitcs팀은 KIS value 의 Raw Data를 Massive Download하여 분석하였으며, 이에 따라 데이터의 완전성 및 정확성과 관련한 미비사항은 Raw Data 자체의 문제이므로 사용상의 유의를 요함.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontname='나눔고딕' fontsize='11'>- 2024년 재무정보는 2024년 1분기 공시사항을 기준으로 하여 데이터가 제한적이며, 손익 등 Flow 관련 값 연환산하였음.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontname='나눔고딕' fontsize='11'>- 일반적인 재무제표상의 계정들을 제외한 추가적인 공시요소들(특수관계자, IFRS 적용여부 등)의 경우 상기 Raw Data의 완전성 및 정확성에 대한 추가확인이 필요할 수 있음. </run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontname='나눔고딕' fontsize='11'>- 별도 재무제표를 기준으로 분석함</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C83F121F-AB4D-4305-AE79-D33ACD352486}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='매출액 대비 충당부채 비율'>
+      <cards>
+        <edge name='left'>
+          <strip size='240'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:한전여부:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D450D18D-59CF-4467-A31E-F3D8FF4EE23F}' />
+    </window>
+    <window class='worksheet' name='연도별 충당부채'>
+      <cards>
+        <edge name='left'>
+          <strip size='296'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='48'>
+            <card type='columns' />
+          </strip>
+          <strip size='48'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{254991CE-64ED-4B96-A108-FDA2398A1864}' />
+    </window>
+    <window class='worksheet' name='산업분류'>
+      <cards>
+        <edge name='left'>
+          <strip size='252'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:한전여부:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{83E7EFB4-E4AE-4C66-8CB9-C16648AD9FFE}' />
+    </window>
+    <window class='worksheet' maximized='true' name='시계열'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0adrmhu1rguqsx120d1ej1ttq6qh].[none:대분류:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{82A30D03-20BB-4E48-BD65-CDB007FAF1DF}' />
+    </window>
+    <window class='dashboard' name='Instruction'>
+      <viewpoints />
+      <active id='8' />
+      <simple-id uuid='{523C246A-69EE-434C-8972-AE98495499C1}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='매출액 대비 충당부채 비율'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='산업분류'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='23' />
+      <simple-id uuid='{4D70DBED-24C0-4D03-B058-710DDB4F40FE}' />
+    </window>
+  </windows>
+</workbook>

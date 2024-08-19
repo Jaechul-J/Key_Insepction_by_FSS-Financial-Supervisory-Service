@@ -1,0 +1,1454 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (KICPA_중점심사)' inline='true' name='federated.0pe5wzc1dcvdx01d319bm1xgp0wo' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='KICPA_중점심사' name='excel-direct.1pvtia3094tgw114c0bdj1yuyf4t'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/jaecjung/Documents/GitHub/Key_Insepction_by_FSS-Financial-Supervisory-Service-/KICPA_중점심사.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='FSS_중점심사' name='excel-direct.0lh0vhp1ia1xe4112oyiy0zsk5hr'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/jaecjung/Documents/GitHub/Key_Insepction_by_FSS-Financial-Supervisory-Service-/FSS_중점심사.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1pvtia3094tgw114c0bdj1yuyf4t' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AE10001:no:A1:AE2147483647:0' header='yes' outcome='2'>
+            <column datatype='string' name='업체코드' ordinal='0' />
+            <column datatype='string' name='종목코드' ordinal='1' />
+            <column datatype='string' name='종목명' ordinal='2' />
+            <column datatype='string' name='업체명' ordinal='3' />
+            <column datatype='string' name='상장법인' ordinal='4' />
+            <column datatype='string' name='대분류' ordinal='5' />
+            <column datatype='string' name='중분류' ordinal='6' />
+            <column datatype='string' name='소분류' ordinal='7' />
+            <column datatype='string' name='채무증권발행(최근 3년)' ordinal='8' />
+            <column datatype='string' name='한전여부' ordinal='9' />
+            <column datatype='string' name='연도' ordinal='10' />
+            <column datatype='integer' name='(개발비상각누계액)' ordinal='11' />
+            <column datatype='integer' name='(개발비손상차손누계액)' ordinal='12' />
+            <column datatype='integer' name='(개발비정부보조금)' ordinal='13' />
+            <column datatype='integer' name='(기타무형자산상각누계액)' ordinal='14' />
+            <column datatype='integer' name='(기타무형자산손상차손누계액)' ordinal='15' />
+            <column datatype='integer' name='(기타무형자산정부보조금)' ordinal='16' />
+            <column datatype='integer' name='(영업권상각누계액)' ordinal='17' />
+            <column datatype='integer' name='(영업권손상차손누계액)' ordinal='18' />
+            <column datatype='integer' name='(영업권정부보조금)' ordinal='19' />
+            <column datatype='string' name='감사법인' ordinal='20' />
+            <column datatype='integer' name='개발비' ordinal='21' />
+            <column datatype='integer' name='공사손실충당부채' ordinal='22' />
+            <column datatype='integer' name='기타무형자산' ordinal='23' />
+            <column datatype='integer' name='보증손실충당부채' ordinal='24' />
+            <column datatype='integer' name='영업권' ordinal='25' />
+            <column datatype='integer' name='유동부채(계)' ordinal='26' />
+            <column datatype='integer' name='유동자산(계)' ordinal='27' />
+            <column datatype='integer' name='총수익' ordinal='28' />
+            <column datatype='integer' name='판매보증충당부채' ordinal='29' />
+            <column datatype='integer' name='하자보수충당부채' ordinal='30' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1pvtia3094tgw114c0bdj1yuyf4t' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AE10001:no:A1:AE2147483647:0' header='yes' outcome='2'>
+            <column datatype='string' name='업체코드' ordinal='0' />
+            <column datatype='string' name='종목코드' ordinal='1' />
+            <column datatype='string' name='종목명' ordinal='2' />
+            <column datatype='string' name='업체명' ordinal='3' />
+            <column datatype='string' name='상장법인' ordinal='4' />
+            <column datatype='string' name='대분류' ordinal='5' />
+            <column datatype='string' name='중분류' ordinal='6' />
+            <column datatype='string' name='소분류' ordinal='7' />
+            <column datatype='string' name='채무증권발행(최근 3년)' ordinal='8' />
+            <column datatype='string' name='한전여부' ordinal='9' />
+            <column datatype='string' name='연도' ordinal='10' />
+            <column datatype='integer' name='(개발비상각누계액)' ordinal='11' />
+            <column datatype='integer' name='(개발비손상차손누계액)' ordinal='12' />
+            <column datatype='integer' name='(개발비정부보조금)' ordinal='13' />
+            <column datatype='integer' name='(기타무형자산상각누계액)' ordinal='14' />
+            <column datatype='integer' name='(기타무형자산손상차손누계액)' ordinal='15' />
+            <column datatype='integer' name='(기타무형자산정부보조금)' ordinal='16' />
+            <column datatype='integer' name='(영업권상각누계액)' ordinal='17' />
+            <column datatype='integer' name='(영업권손상차손누계액)' ordinal='18' />
+            <column datatype='integer' name='(영업권정부보조금)' ordinal='19' />
+            <column datatype='string' name='감사법인' ordinal='20' />
+            <column datatype='integer' name='개발비' ordinal='21' />
+            <column datatype='integer' name='공사손실충당부채' ordinal='22' />
+            <column datatype='integer' name='기타무형자산' ordinal='23' />
+            <column datatype='integer' name='보증손실충당부채' ordinal='24' />
+            <column datatype='integer' name='영업권' ordinal='25' />
+            <column datatype='integer' name='유동부채(계)' ordinal='26' />
+            <column datatype='integer' name='유동자산(계)' ordinal='27' />
+            <column datatype='integer' name='총수익' ordinal='28' />
+            <column datatype='integer' name='판매보증충당부채' ordinal='29' />
+            <column datatype='integer' name='하자보수충당부채' ordinal='30' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AE10001:no:A1:AE2147483647:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>업체코드</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[업체코드]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>업체코드</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>종목코드</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[종목코드]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>종목코드</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>종목명</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[종목명]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>종목명</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>업체명</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[업체명]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>업체명</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>상장법인</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[상장법인]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>상장법인</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>대분류</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[대분류]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>대분류</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>중분류</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[중분류]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>중분류</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>소분류</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[소분류]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>소분류</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>채무증권발행(최근 3년)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[채무증권발행(최근 3년)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>채무증권발행(최근 3년)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>한전여부</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[한전여부]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>한전여부</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연도</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[연도]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>연도</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(개발비상각누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(개발비상각누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(개발비상각누계액)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(개발비손상차손누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(개발비손상차손누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(개발비손상차손누계액)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(개발비정부보조금)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(개발비정부보조금)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(개발비정부보조금)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(기타무형자산상각누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(기타무형자산상각누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(기타무형자산상각누계액)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(기타무형자산손상차손누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(기타무형자산손상차손누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(기타무형자산손상차손누계액)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(기타무형자산정부보조금)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(기타무형자산정부보조금)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(기타무형자산정부보조금)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(영업권상각누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(영업권상각누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(영업권상각누계액)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(영업권손상차손누계액)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(영업권손상차손누계액)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(영업권손상차손누계액)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(영업권정부보조금)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[(영업권정부보조금)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>(영업권정부보조금)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>감사법인</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[감사법인]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>감사법인</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>개발비</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[개발비]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>개발비</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>공사손실충당부채</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[공사손실충당부채]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>공사손실충당부채</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>기타무형자산</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[기타무형자산]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>기타무형자산</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>보증손실충당부채</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[보증손실충당부채]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>보증손실충당부채</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>영업권</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[영업권]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>영업권</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>유동부채(계)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[유동부채(계)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>유동부채(계)</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>유동자산(계)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[유동자산(계)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>유동자산(계)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>총수익</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[총수익]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>총수익</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>판매보증충당부채</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[판매보증충당부채]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>판매보증충당부채</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>하자보수충당부채</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[하자보수충당부채]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>하자보수충당부채</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5D143848626F453C84B703DBC508B4F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:Calculation_1618762641297719297:qk]&quot;' value='총충당부채' />
+          <alias key='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[usr:Calculation_1618762641586442245:qk]&quot;' value='충당부채/매출액 비율' />
+          <alias key='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[usr:Calculation_1618762641599750150:qk:1]&quot;' value='충당부채 변동율' />
+        </aliases>
+      </column>
+      <column caption='충당부채(합계)' datatype='integer' name='[Calculation_1618762641297719297]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[공사손실충당부채]+[보증손실충당부채]+[판매보증충당부채]+[하자보수충당부채]' />
+      </column>
+      <column caption='매출액 대비 충당부채 비율' datatype='real' name='[Calculation_1618762641586442245]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1618762641297719297])/SUM([총수익])' />
+      </column>
+      <column caption='충당부채 변동율' datatype='real' name='[Calculation_1618762641599750150]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(SUM([Calculation_1618762641297719297]) - LOOKUP(SUM([Calculation_1618762641297719297]), -1)) / LOOKUP(SUM([Calculation_1618762641297719297]), -1)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_5D143848626F453C84B703DBC508B4F9]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[공사손실충당부채]' role='measure' type='quantitative' />
+      <column datatype='string' name='[대분류]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[보증손실충당부채]' role='measure' type='quantitative' />
+      <column datatype='string' name='[연도]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[판매보증충당부채]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[하자보수충당부채]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1618762641297719297]' derivation='Sum' name='[sum:Calculation_1618762641297719297:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[공사손실충당부채]' derivation='Sum' name='[sum:공사손실충당부채:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[보증손실충당부채]' derivation='Sum' name='[sum:보증손실충당부채:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[판매보증충당부채]' derivation='Sum' name='[sum:판매보증충당부채:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[하자보수충당부채]' derivation='Sum' name='[sum:하자보수충당부채:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1618762641586442245]' derivation='User' name='[usr:Calculation_1618762641586442245:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1618762641599750150]' derivation='User' name='[usr:Calculation_1618762641599750150:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' />
+      </column-instance>
+      <group caption='Action (대분류,연도)' hidden='true' name='[Action (대분류,연도)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[대분류]' />
+          <groupfilter function='level-members' level='[연도]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (연도)' hidden='true' name='[Action (연도)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[연도]' />
+        </groupfilter>
+      </group>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='1. 충당부채' role='measures'>
+        <folder-item name='[공사손실충당부채]' type='field' />
+        <folder-item name='[보증손실충당부채]' type='field' />
+        <folder-item name='[판매보증충당부채]' type='field' />
+        <folder-item name='[하자보수충당부채]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='2.무형자산' role='measures'>
+        <folder-item name='[(개발비상각누계액)]' type='field' />
+        <folder-item name='[(개발비손상차손누계액)]' type='field' />
+        <folder-item name='[(개발비정부보조금)]' type='field' />
+        <folder-item name='[(기타무형자산상각누계액)]' type='field' />
+        <folder-item name='[(기타무형자산손상차손누계액)]' type='field' />
+        <folder-item name='[(기타무형자산정부보조금)]' type='field' />
+        <folder-item name='[(영업권상각누계액)]' type='field' />
+        <folder-item name='[(영업권손상차손누계액)]' type='field' />
+        <folder-item name='[(영업권정부보조금)]' type='field' />
+        <folder-item name='[개발비]' type='field' />
+        <folder-item name='[기타무형자산]' type='field' />
+        <folder-item name='[영업권]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.true...folders-common>
+        <folder name='1. 충당부채'>
+          <folder-item name='[공사손실충당부채]' type='field' />
+          <folder-item name='[보증손실충당부채]' type='field' />
+          <folder-item name='[판매보증충당부채]' type='field' />
+          <folder-item name='[하자보수충당부채]' type='field' />
+        </folder>
+        <folder name='2.무형자산'>
+          <folder-item name='[(개발비상각누계액)]' type='field' />
+          <folder-item name='[(개발비손상차손누계액)]' type='field' />
+          <folder-item name='[(개발비정부보조금)]' type='field' />
+          <folder-item name='[(기타무형자산상각누계액)]' type='field' />
+          <folder-item name='[(기타무형자산손상차손누계액)]' type='field' />
+          <folder-item name='[(기타무형자산정부보조금)]' type='field' />
+          <folder-item name='[(영업권상각누계액)]' type='field' />
+          <folder-item name='[(영업권손상차손누계액)]' type='field' />
+          <folder-item name='[(영업권정부보조금)]' type='field' />
+          <folder-item name='[개발비]' type='field' />
+          <folder-item name='[기타무형자산]' type='field' />
+          <folder-item name='[영업권]' type='field' />
+        </folder>
+      </_.fcp.SchemaViewerObjectModel.true...folders-common>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:공사손실충당부채:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:Calculation_1618762641297719297:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:하자보수충당부채:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:판매보증충당부채:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:보증손실충당부채:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;South Korea&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_5D143848626F453C84B703DBC508B4F9'>
+            <properties context=''>
+              <relation connection='excel-direct.1pvtia3094tgw114c0bdj1yuyf4t' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:AE10001:no:A1:AE2147483647:0' header='yes' outcome='2'>
+                  <column datatype='string' name='업체코드' ordinal='0' />
+                  <column datatype='string' name='종목코드' ordinal='1' />
+                  <column datatype='string' name='종목명' ordinal='2' />
+                  <column datatype='string' name='업체명' ordinal='3' />
+                  <column datatype='string' name='상장법인' ordinal='4' />
+                  <column datatype='string' name='대분류' ordinal='5' />
+                  <column datatype='string' name='중분류' ordinal='6' />
+                  <column datatype='string' name='소분류' ordinal='7' />
+                  <column datatype='string' name='채무증권발행(최근 3년)' ordinal='8' />
+                  <column datatype='string' name='한전여부' ordinal='9' />
+                  <column datatype='string' name='연도' ordinal='10' />
+                  <column datatype='integer' name='(개발비상각누계액)' ordinal='11' />
+                  <column datatype='integer' name='(개발비손상차손누계액)' ordinal='12' />
+                  <column datatype='integer' name='(개발비정부보조금)' ordinal='13' />
+                  <column datatype='integer' name='(기타무형자산상각누계액)' ordinal='14' />
+                  <column datatype='integer' name='(기타무형자산손상차손누계액)' ordinal='15' />
+                  <column datatype='integer' name='(기타무형자산정부보조금)' ordinal='16' />
+                  <column datatype='integer' name='(영업권상각누계액)' ordinal='17' />
+                  <column datatype='integer' name='(영업권손상차손누계액)' ordinal='18' />
+                  <column datatype='integer' name='(영업권정부보조금)' ordinal='19' />
+                  <column datatype='string' name='감사법인' ordinal='20' />
+                  <column datatype='integer' name='개발비' ordinal='21' />
+                  <column datatype='integer' name='공사손실충당부채' ordinal='22' />
+                  <column datatype='integer' name='기타무형자산' ordinal='23' />
+                  <column datatype='integer' name='보증손실충당부채' ordinal='24' />
+                  <column datatype='integer' name='영업권' ordinal='25' />
+                  <column datatype='integer' name='유동부채(계)' ordinal='26' />
+                  <column datatype='integer' name='유동자산(계)' ordinal='27' />
+                  <column datatype='integer' name='총수익' ordinal='28' />
+                  <column datatype='integer' name='판매보증충당부채' ordinal='29' />
+                  <column datatype='integer' name='하자보수충당부채' ordinal='30' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.0pe5wzc1dcvdx01d319bm1xgp0wo'>
+      <datasources>
+        <datasource caption='Sheet1 (KICPA_중점심사)' name='federated.0pe5wzc1dcvdx01d319bm1xgp0wo' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0pe5wzc1dcvdx01d319bm1xgp0wo'>
+        <column-instance column='[감사법인]' derivation='None' name='[none:감사법인:nk]' pivot='key' type='nominal' />
+        <column-instance column='[대분류]' derivation='None' name='[none:대분류:nk]' pivot='key' type='nominal' />
+        <column-instance column='[소분류]' derivation='None' name='[none:소분류:nk]' pivot='key' type='nominal' />
+        <column-instance column='[업체명]' derivation='None' name='[none:업체명:nk]' pivot='key' type='nominal' />
+        <column-instance column='[연도]' derivation='None' name='[none:연도:nk]' pivot='key' type='nominal' />
+        <column-instance column='[중분류]' derivation='None' name='[none:중분류:nk]' pivot='key' type='nominal' />
+        <column datatype='string' name='[감사법인]' role='dimension' type='nominal' />
+        <column datatype='string' name='[대분류]' role='dimension' type='nominal' />
+        <column datatype='string' name='[소분류]' role='dimension' type='nominal' />
+        <column datatype='string' name='[업체명]' role='dimension' type='nominal' />
+        <column datatype='string' name='[연도]' role='dimension' type='nominal' />
+        <column datatype='string' name='[중분류]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:감사법인:nk]'>
+        <groupfilter function='level-members' level='[none:감사법인:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:대분류:nk]'>
+        <groupfilter function='level-members' level='[none:대분류:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:소분류:nk]'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[none:소분류:nk]' />
+          <groupfilter function='empty-level' member='[none:소분류:nk]' />
+        </groupfilter>
+      </filter>
+      <filter class='categorical' column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:업체명:nk]'>
+        <groupfilter function='level-members' level='[none:업체명:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:연도:nk]'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[none:연도:nk]' />
+          <groupfilter function='member' level='[none:연도:nk]' member='%null%' />
+        </groupfilter>
+      </filter>
+      <filter class='categorical' column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:중분류:nk]'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[none:중분류:nk]' />
+          <groupfilter function='member' level='[none:중분류:nk]' member='%null%' />
+        </groupfilter>
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='2.KICPA_무형자산'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (KICPA_중점심사)' name='federated.0pe5wzc1dcvdx01d319bm1xgp0wo' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pe5wzc1dcvdx01d319bm1xgp0wo'>
+            <column-instance column='[감사법인]' derivation='None' name='[none:감사법인:nk]' pivot='key' type='nominal' />
+            <column-instance column='[대분류]' derivation='None' name='[none:대분류:nk]' pivot='key' type='nominal' />
+            <column-instance column='[소분류]' derivation='None' name='[none:소분류:nk]' pivot='key' type='nominal' />
+            <column-instance column='[업체명]' derivation='None' name='[none:업체명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[연도]' derivation='None' name='[none:연도:nk]' pivot='key' type='nominal' />
+            <column-instance column='[중분류]' derivation='None' name='[none:중분류:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[감사법인]' role='dimension' type='nominal' />
+            <column datatype='string' name='[대분류]' role='dimension' type='nominal' />
+            <column datatype='string' name='[소분류]' role='dimension' type='nominal' />
+            <column datatype='string' name='[업체명]' role='dimension' type='nominal' />
+            <column datatype='string' name='[연도]' role='dimension' type='nominal' />
+            <column datatype='string' name='[중분류]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:감사법인:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:대분류:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:소분류:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:업체명:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:연도:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:중분류:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5BD32A43-D528-4C6C-A71C-E68DB942B155}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>충당부채 변동성</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (KICPA_중점심사)' name='federated.0pe5wzc1dcvdx01d319bm1xgp0wo' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pe5wzc1dcvdx01d319bm1xgp0wo'>
+            <column caption='충당부채(합계)' datatype='integer' name='[Calculation_1618762641297719297]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[공사손실충당부채]+[보증손실충당부채]+[판매보증충당부채]+[하자보수충당부채]' />
+            </column>
+            <column-instance column='[감사법인]' derivation='None' name='[none:감사법인:nk]' pivot='key' type='nominal' />
+            <column-instance column='[대분류]' derivation='None' name='[none:대분류:nk]' pivot='key' type='nominal' />
+            <column-instance column='[소분류]' derivation='None' name='[none:소분류:nk]' pivot='key' type='nominal' />
+            <column-instance column='[업체명]' derivation='None' name='[none:업체명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[연도]' derivation='None' name='[none:연도:nk]' pivot='key' type='nominal' />
+            <column-instance column='[중분류]' derivation='None' name='[none:중분류:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1618762641297719297]' derivation='Sum' name='[sum:Calculation_1618762641297719297:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[공사손실충당부채]' derivation='Sum' name='[sum:공사손실충당부채:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[보증손실충당부채]' derivation='Sum' name='[sum:보증손실충당부채:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[판매보증충당부채]' derivation='Sum' name='[sum:판매보증충당부채:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[하자보수충당부채]' derivation='Sum' name='[sum:하자보수충당부채:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[감사법인]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[공사손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[대분류]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[보증손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[소분류]' role='dimension' type='nominal' />
+            <column datatype='string' name='[업체명]' role='dimension' type='nominal' />
+            <column datatype='string' name='[연도]' role='dimension' type='nominal' />
+            <column datatype='string' name='[중분류]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[판매보증충당부채]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[하자보수충당부채]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:공사손실충당부채:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:보증손실충당부채:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:Calculation_1618762641297719297:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:판매보증충당부채:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:하자보수충당부채:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:공사손실충당부채:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:판매보증충당부채:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:하자보수충당부채:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:보증손실충당부채:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:업체명:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:대분류:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:연도:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:중분류:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:소분류:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:감사법인:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[Multiple Values]' field-type='quantitative' max='13332964452546.809' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[Multiple Values]' scope='rows' value='충당부채 (합계)' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='160' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[Multiple Values]' value='n#,##0,,M' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#000000' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]' value='충당부채 종류' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]' />
+              <lod column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:대분류:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[Multiple Values]</rows>
+        <cols>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:연도:nk]</cols>
+      </table>
+      <simple-id uuid='{F145A95E-8C81-4BE6-8276-66FD7CE01EAD}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (KICPA_중점심사)' name='federated.0pe5wzc1dcvdx01d319bm1xgp0wo' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pe5wzc1dcvdx01d319bm1xgp0wo'>
+            <column caption='충당부채(합계)' datatype='integer' name='[Calculation_1618762641297719297]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[공사손실충당부채]+[보증손실충당부채]+[판매보증충당부채]+[하자보수충당부채]' />
+            </column>
+            <column caption='매출액 대비 충당부채 비율' datatype='real' name='[Calculation_1618762641586442245]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1618762641297719297])/SUM([총수익])' />
+            </column>
+            <column caption='충당부채 변동율' datatype='real' name='[Calculation_1618762641599750150]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(SUM([Calculation_1618762641297719297]) - LOOKUP(SUM([Calculation_1618762641297719297]), -1)) / LOOKUP(SUM([Calculation_1618762641297719297]), -1)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column-instance column='[감사법인]' derivation='None' name='[none:감사법인:nk]' pivot='key' type='nominal' />
+            <column-instance column='[대분류]' derivation='None' name='[none:대분류:nk]' pivot='key' type='nominal' />
+            <column-instance column='[소분류]' derivation='None' name='[none:소분류:nk]' pivot='key' type='nominal' />
+            <column-instance column='[업체명]' derivation='None' name='[none:업체명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[연도]' derivation='None' name='[none:연도:nk]' pivot='key' type='nominal' />
+            <column-instance column='[중분류]' derivation='None' name='[none:중분류:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1618762641297719297]' derivation='Sum' name='[sum:Calculation_1618762641297719297:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[총수익]' derivation='Sum' name='[sum:총수익:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1618762641586442245]' derivation='User' name='[usr:Calculation_1618762641586442245:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1618762641599750150]' derivation='User' name='[usr:Calculation_1618762641599750150:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column datatype='string' name='[감사법인]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[공사손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[대분류]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[보증손실충당부채]' role='measure' type='quantitative' />
+            <column datatype='string' name='[소분류]' role='dimension' type='nominal' />
+            <column datatype='string' name='[업체명]' role='dimension' type='nominal' />
+            <column datatype='string' name='[연도]' role='dimension' type='nominal' />
+            <column datatype='string' name='[중분류]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[총수익]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[판매보증충당부채]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[하자보수충당부채]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[usr:Calculation_1618762641586442245:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:총수익:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[usr:Calculation_1618762641599750150:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:Calculation_1618762641297719297:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:총수익:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:Calculation_1618762641297719297:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[usr:Calculation_1618762641599750150:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[usr:Calculation_1618762641586442245:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[Action (대분류,연도)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_AA1A6A7668A644A3B365B9790111BAD1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[대분류]' />
+              <groupfilter function='level-members' level='[연도]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[Action (연도)]'>
+            <groupfilter function='level-members' level='[연도]' user:ui-action-filter='[Action1_F4717E97C37B470AAF54F255F124CC67]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:업체명:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:대분류:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:연도:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[Action (연도)]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[Action (대분류,연도)]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:중분류:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:소분류:nk]</column>
+            <column>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:감사법인:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#000000' />
+            <format attr='text-format' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[usr:Calculation_1618762641586442245:qk]' value='p0.00000%' />
+            <format attr='text-format' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:Calculation_1618762641297719297:qk]' value='n#,##0,,M;-#,##0,,M' />
+            <format attr='text-format' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[sum:총수익:qk]' value='n#,##0,,M;-#,##0,,M' />
+            <format attr='text-format' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[usr:Calculation_1618762641599750150:qk]' value='p0%' />
+            <format attr='height' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]' value='55' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]' value='196' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]' value='center' />
+            <format attr='vertical-align' field='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]' value='center' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[Multiple Values]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[Multiple Values]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]</rows>
+        <cols>[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:연도:nk]</cols>
+      </table>
+      <simple-id uuid='{459671AB-5F20-41B0-B4A7-019A5B7FB2D1}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Sheet1 (KICPA_중점심사)' name='federated.0pe5wzc1dcvdx01d319bm1xgp0wo' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0pe5wzc1dcvdx01d319bm1xgp0wo'>
+        <column-instance column='[감사법인]' derivation='None' name='[none:감사법인:nk]' pivot='key' type='nominal' />
+        <column-instance column='[대분류]' derivation='None' name='[none:대분류:nk]' pivot='key' type='nominal' />
+        <column-instance column='[소분류]' derivation='None' name='[none:소분류:nk]' pivot='key' type='nominal' />
+        <column-instance column='[업체명]' derivation='None' name='[none:업체명:nk]' pivot='key' type='nominal' />
+        <column-instance column='[중분류]' derivation='None' name='[none:중분류:nk]' pivot='key' type='nominal' />
+        <column datatype='string' name='[감사법인]' role='dimension' type='nominal' />
+        <column datatype='string' name='[대분류]' role='dimension' type='nominal' />
+        <column datatype='string' name='[소분류]' role='dimension' type='nominal' />
+        <column datatype='string' name='[업체명]' role='dimension' type='nominal' />
+        <column datatype='string' name='[중분류]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='5' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98692' id='11' param='horz' type-v2='layout-flow' w='51055' x='48573' y='654'>
+            <zone h='98692' id='6' type-v2='layout-basic' w='51055' x='48573' y='654'>
+              <zone forceUpdate='true' h='15611' id='17' type-v2='text' w='51055' x='48573' y='654'>
+                <formatted-text>
+                  <run bold='true' fontalignment='1' fontcolor='#e15759' fontsize='14'>* 회사의 타법인 지급보증 데이터는 누락되었음으로 대시보드에서 제외</run>
+                  <run fontalignment='1'>Æ&#10;</run>
+                  <run bold='true' fontalignment='1' fontcolor='#e15759' fontsize='14'>* 2024년 은 결산이 아닌 1분기 기준입니다.</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='83081' id='27' name='Sheet 2' show-title='false' w='51055' x='48573' y='16265'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='98692' id='19' is-fixed='true' type-v2='layout-basic' w='11369' x='372' y='654'>
+            <zone h='98692' id='20' param='vert' type-v2='layout-flow' w='11369' x='372' y='654'>
+              <zone h='4906' id='13' mode='checkdropdown' name='Sheet 1' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:대분류:nk]' type-v2='filter' w='11369' x='372' y='654'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='4906' id='23' mode='checkdropdown' name='Sheet 1' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:중분류:nk]' type-v2='filter' w='11369' x='372' y='5560'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='4906' id='22' mode='checkdropdown' name='Sheet 1' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:소분류:nk]' type-v2='filter' w='11369' x='372' y='10466'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='4906' id='12' mode='checkdropdown' name='Sheet 1' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:업체명:nk]' type-v2='filter' values='relevant' w='11369' x='372' y='15372'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='4906' id='25' mode='checkdropdown' name='Sheet 1' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:감사법인:nk]' type-v2='filter' w='11369' x='372' y='20278'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10957' id='26' name='Sheet 1' pane-specification-id='8' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]' type-v2='color' w='11369' x='372' y='25184'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='15611' id='15' type-v2='text' w='36832' x='11741' y='654'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='16'>1. 충당부채와 우발부채 회계처리 및 공시의 적정성</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='83081' id='24' name='Sheet 1' show-title='false' w='36832' x='11741' y='16265'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='6721' id='28' type-v2='text' w='8200' x='32799' y='14021'>
+          <formatted-text>
+            <run>(단위: 백 만원)</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98692' id='31' param='vert' type-v2='layout-flow' w='99256' x='372' y='654'>
+                <zone forceUpdate='true' h='15611' id='15' type-v2='text' w='36832' x='11741' y='654'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='16'>1. 충당부채와 우발부채 회계처리 및 공시의 적정성</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='15611' id='17' type-v2='text' w='51055' x='48573' y='654'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#e15759' fontsize='14'>* 회사의 타법인 지급보증 데이터는 누락되었음으로 대시보드에서 제외</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#e15759' fontsize='14'>* 2024년 은 결산이 아닌 1분기 기준입니다.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6721' id='28' type-v2='text' w='8200' x='32799' y='14021'>
+                  <formatted-text>
+                    <run>(단위: 백 만원)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4906' id='13' mode='checkdropdown' name='Sheet 1' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:대분류:nk]' type-v2='filter' w='11369' x='372' y='654'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4906' id='23' mode='checkdropdown' name='Sheet 1' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:중분류:nk]' type-v2='filter' w='11369' x='372' y='5560'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4906' id='22' mode='checkdropdown' name='Sheet 1' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:소분류:nk]' type-v2='filter' w='11369' x='372' y='10466'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4906' id='12' mode='checkdropdown' name='Sheet 1' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:업체명:nk]' type-v2='filter' values='relevant' w='11369' x='372' y='15372'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4906' id='25' mode='checkdropdown' name='Sheet 1' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:감사법인:nk]' type-v2='filter' w='11369' x='372' y='20278'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='83081' id='24' is-fixed='true' name='Sheet 1' show-title='false' w='36832' x='11741' y='16265'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10957' id='26' name='Sheet 1' pane-specification-id='8' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]' type-v2='color' w='11369' x='372' y='25184'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='83081' id='27' is-fixed='true' name='Sheet 2' show-title='false' w='51055' x='48573' y='16265'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4258FAE6-ADC8-4FD9-8683-2779952E0F28}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='26'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card mode='checkdropdown' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:감사법인:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:대분류:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:중분류:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:소분류:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[none:업체명:nk]' type='filter' values='relevant' />
+            <card pane-specification-id='8' param='[federated.0pe5wzc1dcvdx01d319bm1xgp0wo].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1A391ABB-AF8A-4F73-BC93-D12677F68156}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='286'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='194'>
+            <card type='columns' />
+          </strip>
+          <strip size='278'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{09E2BFA0-BC18-4BCE-8E56-9B97ADC0CCC1}' />
+    </window>
+    <window class='worksheet' name='2.KICPA_무형자산'>
+      <cards>
+        <edge name='left'>
+          <strip size='114'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='20'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5FEF7960-28AE-4ECF-AF6A-9D5073AD3338}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2' />
+      </viewpoints>
+      <active id='20' />
+      <simple-id uuid='{48F2A159-8284-4623-8AE8-D08927D92FA7}' />
+    </window>
+  </windows>
+</workbook>
