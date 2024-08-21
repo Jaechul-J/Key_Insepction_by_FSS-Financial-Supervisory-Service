@@ -11,6 +11,7 @@ file_paths = [
     r".\KICPA\VALUESearch2_Goodwill.xlsx",
     r".\KICPA\VALUESearch2_Development.xlsx",
     r".\KICPA\VALUESearch2_Other_Intagibles.xlsx",
+    r".\KICPA\VALUESearch2_Total_Asset.xlsx",
     r".\KICPA\VALUESearch4_LiquidityRatio.xlsx"
 ]
 #
@@ -32,6 +33,7 @@ df_kepco_list = df_kepco['상호'].to_list()
 
 df['한전여부'] = df['업체명'].apply(lambda x: 'O' if x in df_kepco_list else 'X')
 
+df['2024총수익'] = df['2024총수익'] * 4
 
 # Melting process
 
@@ -42,6 +44,7 @@ value_vars_repair_provision = ['2020하자보수충당부채', '2021하자보수
 value_vars_warranty_provision = ['2020판매보증충당부채', '2021판매보증충당부채', '2022판매보증충당부채', '2023판매보증충당부채', '2024판매보증충당부채']
 value_vars_construction_loss_provision = ['2020공사손실충당부채', '2021공사손실충당부채', '2022공사손실충당부채', '2023공사손실충당부채', '2024공사손실충당부채']
 value_vars_guarantee_loss_provision = ['2020보증손실충당부채', '2021보증손실충당부채', '2022보증손실충당부채', '2023보증손실충당부채', '2024보증손실충당부채']
+value_vars_total_asset = ['2020자산총계', '2021자산총계', '2022자산총계', '2023자산총계', '2024자산총계']
 value_vars_goodwill = ['2020영업권', '2021영업권', '2022영업권', '2023영업권', '2024영업권']
 value_vars_goodwill_acc_depreciation = ['2020(영업권상각누계액)', '2021(영업권상각누계액)', '2022(영업권상각누계액)', '2023(영업권상각누계액)', '2024(영업권상각누계액)']
 value_vars_goodwill_acc_impairment = ['2020(영업권손상차손누계액)', '2021(영업권손상차손누계액)', '2022(영업권손상차손누계액)', '2023(영업권손상차손누계액)', '2024(영업권손상차손누계액)']
@@ -60,7 +63,7 @@ value_vars_current_liability = ['2020유동부채(계)', '2021유동부채(계)'
 # Melting the data for all columns at once
 df_melt = pd.melt(df,
                   id_vars=['업체코드', '종목코드', '종목명', '업체명', '상장법인', '대분류', '중분류', '소분류', '채무증권발행(최근 3년)', '한전여부'],
-                  value_vars=value_vars_audit_firm + value_vars_total_revenue + value_vars_repair_provision + value_vars_warranty_provision + value_vars_construction_loss_provision +
+                  value_vars=value_vars_audit_firm + value_vars_total_revenue + value_vars_repair_provision + value_vars_warranty_provision + value_vars_construction_loss_provision + value_vars_total_asset +
                   value_vars_guarantee_loss_provision + value_vars_goodwill + value_vars_goodwill_acc_depreciation + value_vars_goodwill_acc_impairment + value_vars_goodwill_gov_subsidiary +
                   value_vars_development + value_vars_development_acc_depreciation + value_vars_development_acc_impairment + value_vars_development_gov_subsidiary +
                   value_vars_other + value_vars_other_acc_depreciation + value_vars_other_acc_impairment + value_vars_other_gov_subsidiary +
