@@ -4,7 +4,7 @@ import numpy as np
 import glob
 
 # Function Declaration to tidy standard data (Multi use case)
-def process_data(std_file, file_paths):
+def process_data(std_path, sheet_names):
     """
     Process the data up to the merging step.
 
@@ -16,7 +16,7 @@ def process_data(std_file, file_paths):
     pd.DataFrame: Merged DataFrame.
     """
     # Step 1: Read in Raw Data downloaded from FSS
-    df_std = pd.read_excel(std_file)
+    df_std = pd.read_excel(std_path)
 
     # Step 2: Specify the column that needs renaming
     old_column_name = '691005.업체명'
@@ -40,8 +40,8 @@ def process_data(std_file, file_paths):
 
     # Step 4: Read and process each additional file
     dataframes = []
-    for path in file_paths:
-        df = pd.read_excel(path)
+    for sheet in sheet_names:
+        df = pd.read_excel(std_path, sheet_name=sheet)
         df.columns = df.columns.str.replace(pattern1, '', regex=True)
         dataframes.append(df)
 
