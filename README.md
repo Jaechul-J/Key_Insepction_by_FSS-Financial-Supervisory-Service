@@ -1,2 +1,2 @@
 # Key_Insepction_by_FSS(Financial Supervisory Service)
- The project features the area of key inspection provided by FSS (Financial Supervisory Service) in Korea. Python is used to tidy up the data, which will then be used to visualize using Tableau.
+The project focuses on key inspection areas provided by the Financial Supervisory Service (FSS) in Korea. Python is used to clean and process the data, which is then visualized using Tableau. To streamline the data handling, I created a process_data function in funct.py that efficiently reads and merges commonly used data, which is then utilized in both FSS.py and KICPA.py.
