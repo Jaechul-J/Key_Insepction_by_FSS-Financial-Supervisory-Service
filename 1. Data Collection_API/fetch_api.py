@@ -99,7 +99,7 @@ if __name__ == "__main__":
         get_corp_codes()
 
     # Step 2: 원하는 종목코드와 연도 설정
-    years = [2022, 2023, 2024]
+    years = [2020, 2021, 2022, 2023, 2024]
 
     # Step 3: 재무제표 수집 및 저장
     fetch_and_save_many(years)
