@@ -1,10 +1,13 @@
-# Key_Insepction_by_FSS & KICPA
-The project focuses on key inspection areas provided by the KICPA in Korea. OpenDart API is used to retrieve data from OpenDart and other datas are retrieved from ValueSearch. Python is used to clean and process the data, which is then visualized using Tableau. To streamline the data handling, I created a process_data function in funct.py that efficiently reads and merges commonly used data, which is then utilized in both FSS.py and KICPA.py.
+# Key Inspection by FSS (Financial Supervisory Service)
 
-## Steps
-### 1. Data Collection
+This repository is organized into two primary sections:
 
+## 1. Data Collection_API
+This folder contains scripts and resources related to data collection through various APIs. Use these materials to gather raw data required for further analysis and processing.
 
-### 2. Data Tidying
+## 2. Data Tidying
+This section includes notebooks and scripts for cleaning, organizing, and preparing collected data for analysis. The tidying process ensures data quality and usability for subsequent financial inspections or research.
 
-### 3. Tableau Output
+---
+
+*Please refer to the respective folder README files or notebooks for more detailed instructions on usage and workflows.*
