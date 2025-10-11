@@ -11,7 +11,7 @@ def load_and_clean_file(filepath):
     try:
         df = pd.read_csv(filepath)
 
-        # ✅ 파일명에서 회사명 추출 (예: '삼성전자_2023.csv' → '삼성전자')
+        # 파일명에서 회사명 추출 (예: '삼성전자_2023.csv' → '삼성전자')
         filename = os.path.basename(filepath)
         corp_name = filename.split('_')[0]
 
@@ -23,12 +23,12 @@ def load_and_clean_file(filepath):
             'account_nm': 'account',
             'thstrm_amount': 'value'
         })
-        df['corp_name'] = corp_name  # ✅ 회사명 추가
+        df['corp_name'] = corp_name  # 회사명 추가
         df['value'] = df['value'].astype(str).str.replace(',', '').str.replace(' ', '')
         df['value'] = pd.to_numeric(df['value'], errors='coerce')
         return df
     except Exception as e:
-        print(f"❌ Failed to process {filepath}: {e}")
+        print(f"Failed to process {filepath}: {e}")
         return pd.DataFrame()
 
 def preprocess_all_financials(input_folder="data/raw/dart", output_file="data/processed/financial_summary.csv"):
@@ -43,7 +43,7 @@ def preprocess_all_financials(input_folder="data/raw/dart", output_file="data/pr
     merged = pd.concat(all_data)
     final = merged.pivot_table(index=['corp_name', 'year', 'stock_code'], columns='account', values='value').reset_index()
     final.to_csv(output_file, index=False, encoding='utf-8-sig')
-    print(f"✅ Saved merged financial summary to {output_file}")
+    print(f"Saved merged financial summary to {output_file}")
 
 if __name__ == "__main__":
     preprocess_all_financials()
